@@ -24,4 +24,13 @@ Results:
 | MobileNetV2 | W2A2     | --num_samples 1024 --n_bits_w 2 --n_bits_a 2  |  15.139  |                |  96.339  |            |  18.969  |
 
 
-<br/>
+|   Model   | Precision | Hyper-Params                          | Accuracy |
+| :-------: | --------- | ------------------------------------- | -------- |
+| ResNet-18 | 5-bit     | batch128_lr0.01_wd0.0001_25epoch      |  99.58   |
+| ResNet-18 | 4-bit     | batch128_lr0.01_wd0.0001_25epoch      |  99.49   |
+| ResNet-18 | 3-bit     | batch128_lr0.01_wd0.0001_25epoch      |  99.30   |
+| ResNet-18 | 2-bit     | batch128_lr0.01_wd0.0001_25epoch      |  98.45   |
+| ResNet-10 | 5-bit     | batch128_lr0.01_wd0.0001_25epoch      |  99.78   |
+| ResNet-10 | 4-bit     | batch128_lr0.01_wd0.0001_25epoch      |  99.64   |
+| ResNet-10 | 3-bit     | batch128_lr0.01_wd0.0001_25epoch      |  99.39   |
+| ResNet-10 | 2-bit     | batch128_lr0.01_wd0.0001_25epoch      |  98.72   |
