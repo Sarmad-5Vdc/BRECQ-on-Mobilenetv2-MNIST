@@ -13,8 +13,8 @@ Repo used to train the MobileNetV2 is [here](https://github.com/Mayurji/Image-Cl
 
 Results:
 
-                                                                       (Without BRECQ)   (Weight Only)      (Full) 
-                                                                         Quantization    Quantization    Quantization
+|                                                                       (Without BRECQ)   (Weight Only)      (Full)   |
+|                                                                         Quantization    Quantization    Quantization|
 |   Model   | Precision | Hyper-Params                                   | Accuracy |    | Accuracy |    | Accuracy |
 | :-------: | --------- | ---------------------------------------------- | -------- |    | -------- |    | -------- |
 | MobileNetV2 | W8A8     | --num_samples 1024 --n_bits_w 8 --n_bits_a 8  |  97.93   |    |  97.86   |    |  97.919  |
