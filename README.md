@@ -24,3 +24,4 @@ Results:
 | MobileNetV2 | W2A2     | --num_samples 1024 --n_bits_w 2 --n_bits_a 2  |  15.139  |                |  96.339  |            |  18.969  |
 
 
+<br/>
