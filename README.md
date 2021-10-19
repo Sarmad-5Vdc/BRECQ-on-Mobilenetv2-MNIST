@@ -11,7 +11,7 @@ Repo used to train the MobileNetV2 is [here](https://github.com/Mayurji/Image-Cl
 !python main_imagenet.py --data_path './' --arch mobilenetv2 --test_before_calibration --num_samples 1024 --n_bits_w 2 --n_bits_a 4 --act_quant
 ```
 
-### Results:
+Results:
 
                                                                        (Without BRECQ)   (Weight Only)      (Full) 
                                                                          Quantization    Quantization    Quantization
