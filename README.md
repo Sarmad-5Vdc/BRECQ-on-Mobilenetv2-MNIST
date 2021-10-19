@@ -14,7 +14,7 @@ Repo used to train the MobileNetV2 is [here](https://github.com/Mayurji/Image-Cl
 Results:
                                                              
 |   Model     | Precision | Hyper-Params                                   | Accuracy Without BRECQ |   Weight Only BRECQ |  Full Accuracy |
-| ---------   |:---       |:---------                                      |:-----                  |---------            |:---            |
+| :---------: |:---:      |:---------:                                     |:-----:                 |:---------:          |:---:           |
 | MobileNetV2 | W8A8      | --num_samples 1024 --n_bits_w 8 --n_bits_a 8   |  97.93                 |     97.86           |    97.919      |
 | MobileNetV2 | W4A8      | --num_samples 1024 --n_bits_w 4 --n_bits_a 8   |  95.5                  |     97.919          |    97.909      |
 | MobileNetV2 | W2A8      | --num_samples 1024 --n_bits_w 2 --n_bits_a 8   |  15.139                |     96.339          |    96.379      |
@@ -23,14 +23,3 @@ Results:
 | MobileNetV2 | W3A3      | --num_samples 1024 --n_bits_w 3 --n_bits_a 3   |  78.0                  |     97.569          |    83.489      |
 | MobileNetV2 | W2A2      | --num_samples 1024 --n_bits_w 2 --n_bits_a 2   |  15.139                |     96.339          |    18.969      |
 
-
-|   Model   | Precision | Hyper-Params                          | Accuracy |
-| :-------: | --------- | ------------------------------------- | -------- |
-| ResNet-18 | 5-bit     | batch128_lr0.01_wd0.0001_25epoch      |  99.58   |
-| ResNet-18 | 4-bit     | batch128_lr0.01_wd0.0001_25epoch      |  99.49   |
-| ResNet-18 | 3-bit     | batch128_lr0.01_wd0.0001_25epoch      |  99.30   |
-| ResNet-18 | 2-bit     | batch128_lr0.01_wd0.0001_25epoch      |  98.45   |
-| ResNet-10 | 5-bit     | batch128_lr0.01_wd0.0001_25epoch      |  99.78   |
-| ResNet-10 | 4-bit     | batch128_lr0.01_wd0.0001_25epoch      |  99.64   |
-| ResNet-10 | 3-bit     | batch128_lr0.01_wd0.0001_25epoch      |  99.39   |
-| ResNet-10 | 2-bit     | batch128_lr0.01_wd0.0001_25epoch      |  98.72   |
