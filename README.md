@@ -13,15 +13,14 @@ Repo used to train the MobileNetV2 is [here](https://github.com/Mayurji/Image-Cl
 
 Results:
                                                              
-|   Model     | Precision | Hyper-Params                                   | Accuracy Without BRECQ|   |Weight Only BRECQ|            |Full Accuracy|
-| :-------:   | --------- | ---------------------------------------------- | --------              |   | --------        |            | --------    |
-| MobileNetV2 | W8A8      | --num_samples 1024 --n_bits_w 8 --n_bits_a 8   |  97.93                |   |  97.86          |            |  97.919     |
-| MobileNetV2 | W4A8      | --num_samples 1024 --n_bits_w 4 --n_bits_a 8   |  95.5                 |   |  97.919         |            |  97.909     |
-| MobileNetV2 | W2A8      | --num_samples 1024 --n_bits_w 2 --n_bits_a 8   |  15.139               |   |  96.339         |            |  96.379     |
-| MobileNetV2 | W4A4      | --num_samples 1024 --n_bits_w 4 --n_bits_a 4   |  95.5                 |   |  97.919         |            |  96.479     |
-| MobileNetV2 | W2A4      | --num_samples 1024 --n_bits_w 2 --n_bits_a 4   |  15.139               |   |  96.339         |            |  94.649     |
-| MobileNetV2 | W3A3      | --num_samples 1024 --n_bits_w 3 --n_bits_a 3   |  78.0                 |   |  97.569         |            |  83.489     |
-| MobileNetV2 | W2A2      | --num_samples 1024 --n_bits_w 2 --n_bits_a 2   |  15.139               |   |  96.339         |            |  18.969     |
+|   Model     | Precision | Hyper-Params                                   | Accuracy Without BRECQ|   Weight Only BRECQ|  Full Accuracy|
+| MobileNetV2 | W8A8      | --num_samples 1024 --n_bits_w 8 --n_bits_a 8   |  97.93                |     97.86          |    97.919     |
+| MobileNetV2 | W4A8      | --num_samples 1024 --n_bits_w 4 --n_bits_a 8   |  95.5                 |     97.919         |    97.909     |
+| MobileNetV2 | W2A8      | --num_samples 1024 --n_bits_w 2 --n_bits_a 8   |  15.139               |     96.339         |    96.379     |
+| MobileNetV2 | W4A4      | --num_samples 1024 --n_bits_w 4 --n_bits_a 4   |  95.5                 |     97.919         |    96.479     |
+| MobileNetV2 | W2A4      | --num_samples 1024 --n_bits_w 2 --n_bits_a 4   |  15.139               |     96.339         |    94.649     |
+| MobileNetV2 | W3A3      | --num_samples 1024 --n_bits_w 3 --n_bits_a 3   |  78.0                 |     97.569         |    83.489     |
+| MobileNetV2 | W2A2      | --num_samples 1024 --n_bits_w 2 --n_bits_a 2   |  15.139               |     96.339         |    18.969     |
 
 
 |   Model   | Precision | Hyper-Params                          | Accuracy |
