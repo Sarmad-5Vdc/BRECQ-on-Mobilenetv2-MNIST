@@ -14,6 +14,7 @@ Repo used to train the MobileNetV2 is [here](https://github.com/Mayurji/Image-Cl
 Results:
                                                              
 |   Model     | Precision | Hyper-Params                                   | Accuracy Without BRECQ |   Weight Only BRECQ |  Full Accuracy |
+| ---------   |:---       |:---------                                      |:-----                  |---------            |:---            |
 | MobileNetV2 | W8A8      | --num_samples 1024 --n_bits_w 8 --n_bits_a 8   |  97.93                 |     97.86           |    97.919      |
 | MobileNetV2 | W4A8      | --num_samples 1024 --n_bits_w 4 --n_bits_a 8   |  95.5                  |     97.919          |    97.909      |
 | MobileNetV2 | W2A8      | --num_samples 1024 --n_bits_w 2 --n_bits_a 8   |  15.139                |     96.339          |    96.379      |
